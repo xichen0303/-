@@ -1,0 +1,25 @@
+body,ol,ul,li,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,header,nav,section,footer{margin:0;padding:0;box-sizing: border-box;} 
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;}
+a{text-decoration:none;} 
+a:hover{color:#cd0200;} 
+b,strong{font-weight: normal;}
+i,em{font-style:normal}
+li{list-style:none}
+img{border:0;display: block;} 
+.noborder{border:0;}
+.left{float: left;}
+.right{float: right;}
+html,body{box-sizing: border-box;}
+
+
+/*=============================全局样式结束============================*/
+.footer_wrap{
+	width: 100%;
+	height: 300px;
+	background: saddlebrown;
+}
+
+
+
+
+
