@@ -84,6 +84,26 @@ function timeOut(){
 	},100)
 }
 timeOut();
+
+function timeOut2(){
+	var start = new Date();
+	var end = new Date("2018-02-10 12:00:00");
+	var t = diff( start , end );
+	function showTime(){
+		var d = parseInt( t/3600/24 );//天           t/3600/24
+		var h = parseInt( t/3600-d*24 );//小时       
+		var m = parseInt( (t - d*3600*24 - h*3600)/60 );//分钟   (t - d*3600*24 - h*3600)/60  
+		var s = parseInt(  t - d*24*3600 - h*3600 - m*60 );//秒   t - d*24*3600 - h*3600 - m*60
+		
+		$(".limit #djs_").html( d + "天" + h + "小时" + m + "分钟" + s + "秒" );
+	}
+	var timer = setInterval(function(){
+		t--;
+		showTime();
+	},1000);
+}
+timeOut2();
+
 function timeToBuy(){
 	//整点抢选项卡
 	$(".time_list").find("ul").on("click","li",function(){

@@ -4896,7 +4896,7 @@
 		
 		<div class="footer_wrap">
 			<!--  侧边栏   -->
-			<div class="gou-car">
+			<div class="gou-cart">
 				<div class="whole">
 					<div class="bearImg">
 						<img src="img/bear.png"/>
@@ -4904,14 +4904,14 @@
 					<div class="cart-nav">
 						<div class="cart-nav-list">
 							<ul>
-								<li>
-									<a href=""><i class="account"></i></a>
+								<li class="cart-user">
+									<a href="javascript:;"><i class="account"></i></a>
 								</li>
-								<li>
-									<a href="">
+								<li class="cart-i">
+									<a href="javascript:;" class="message_list aStair">
 										<i class="message"></i>
 										<div class="span">购物车</div>
-										<span class="cart-num">0</span>
+										<span class="cart_num">0</span>
 									</a>
 								</li>
 							</ul>
@@ -4966,14 +4966,14 @@
 								</li>
 								<li>
 									<a href="">
-										<i></i>
+										<i class="feedicon"></i>
 									</a>
 									<div class="txt-pro aStair">
 										<a href="">反馈</a>
 									</div>
 								</li>
-								<li>
-									<a href="" class="aStair">
+								<li id="backTop">
+									<a href="javascript:;" class="aStair">
 										<i class="backTop">
 											<img src="img/backTop.png"/>
 										</i>
@@ -4984,7 +4984,35 @@
 					</div>
 				</div>
 				<div class="cart-main-list">
-					
+						<div class="sideLogin">
+							<div class="nologin">
+								<label class="usebg" for=""></label>
+								<input type="text" class="txt" id="username" placeholder="用户名/手机号" />
+								<div class="useTxt"></div>
+								<label class="wordbg" for=""></label>
+								<input type="password" class="txt" id="pwd" placeholder="请输入密码" />
+								<div class="pwdTxt"></div>
+								<p class="yzm">
+									<input type="text" class="txt" id="vcode" placeholder="验证码" />
+									<img src="img/8810.png" class="codeImg" />
+									<a href="javascript:;">换一张</a>
+								</p>
+								<div class="yamTxt"></div>
+								<p>
+									<input type="submit" value="登录" />
+									<a href="">免费注册</a>
+								</p>
+							</div>
+						</div>
+						<div class="shopcar">
+							<div class="nopublic">
+								<div class="nothing">
+									<div class="noicon"></div>
+									喔，亲，您还没有添加过任何商品哦！
+									<a href="">去逛逛</a>
+								</div>
+							</div>
+						</div>
 				</div>
 			</div>
 			

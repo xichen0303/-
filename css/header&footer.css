@@ -557,6 +557,9 @@ html,div{box-sizing: border-box;}
 	color: #adadad;
 	padding: 0 17px;
 }
+.footer .about p.abLink a:hover{
+	color: #FFFFFF;
+}
 .footer .about p.abLink span{
 	color: #555555;
 }
@@ -580,4 +583,376 @@ html,div{box-sizing: border-box;}
 	width: 112px;
 	margin: 0 3px;
 }
+
+
+/* =====侧栏===== */
+.gou-cart{
+	z-index: 201;
+	position: fixed;
+	right: -280px;
+	bottom: 0;
+	width: 315px;
+	height: 100%;
+}
+.gou-cart .whole {
+    height: 100%;
+    position: relative;
+}
+.gou-cart .whole .bearImg {
+    width: 55px;
+    height: 75px;
+    position: absolute;
+    top: 5px;
+    left: -12px;
+    z-index: 20;
+    background-size: 100%;
+}
+.gou-cart .whole .bearImg img {
+    width: 75%;
+}
+.cart-nav{
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	width: 35px;
+	height: 100%;
+	background: #444851;
+}
+.cart-nav-list{
+	z-index: 2;
+	position: absolute;
+	top: 38%;
+	left: 0;
+	width: 35px;
+	margin-top: -190px;
+	background: #444851;
+}
+.cart-nav-list li {
+    position: relative;
+}
+.cart-nav-list a {
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0px;
+    display: block;
+    line-height: 200px;
+    width: 35px;
+    height: 30px;
+    margin: 5px 0;
+    padding: 0;
+    text-decoration: none;
+    color: #d8d8d8;
+    font-size: 12px;
+    background-color: #444851;
+    overflow: hidden;
+}
+.cart-nav-list a i {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 35px;
+    height: 30px;
+}
+.cart-nav-list i.account {
+    background-position: -2px -90px;
+}
+.cart-nav-list i {
+    background: url(../img/icon_index.png) no-repeat;
+}
+.cart-nav-list a.message_list {
+    height: 133px;
+    line-height: 16px;
+    margin: 5px 0 5px;
+    color: #fff;
+}
+.cart-nav-list i.message {
+    background-position: -3px -139px;
+}
+.cart-nav-list a.message_list .span {
+    display: block;
+    width: 16px;
+    height: 48px;
+    margin: 38px 0 0 12px;
+    cursor: pointer;
+    color: #fff;
+}
+.cart-nav-list a.message_list .cart_num {
+    display: block;
+    width: 21px;
+    height: 21px;
+    margin: 9px 0 0 7px;
+    text-align: center;
+    line-height: 21px;
+    background: #ca3619;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+}
+
+.cart-nav-list.bot {
+    top: auto;
+    bottom: 0px;
+}
+.cart-nav-list li.kf a {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: -5px;
+}
+
+.cart-nav-list li i.wxi {
+    background: url(../img/wxIcon_white.png) no-repeat center;
+}
+.cart-nav-list a i {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 35px;
+    height: 30px;
+}
+.cart-nav-list i.servi {
+    background-position: -2px -191px;
+    cursor: default;
+}
+.cart-nav-list li.kf div.span {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+.cart-nav-list i.collection {
+    background-position: -2px -233px;
+}
+.cart-nav-list .txt-pro {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background: #444851;
+}
+.cart-nav-list .txt-pro a {
+    display: inline;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+    color: #fff;
+}
+.cart-nav-list i.view {
+    background-position: -3px -278px;
+}
+.cart-nav-list .txt-pro a {
+    display: inline;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+    color: #fff;
+}
+.cart-nav-list i.payto {
+    background-position: -2px -314px;
+    cursor: default;
+}
+.cart-nav-list .module-pro {
+    position: absolute;
+    left: 0;
+    top: -50px;
+    width: 0px;
+    overflow: hidden;
+}
+.cart-nav-list i.feedicon {
+    background-position: -2px -350px;
+}
+.cart-nav-list .txt-pro a {
+    display: inline;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+    color: #fff;
+}
+.cart-nav-list #backTop a {
+    margin: 0px;
+}
+.cart-nav-list i.backTop {
+    background-position: -2px -390px;
+}
+.cart-nav-list i.backTop img {
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    opacity: 0;
+}
+
+.gou-cart li:hover>a:hover{
+	background: #CC1D00;
+}
+
+.cart-main-list{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 280px;
+	height: 100%;
+	background: #6A5a51;
+}
+.sideLogin {
+    background: #ddd;
+    height: 100%;
+    overflow: hidden;
+    display: none;/**/
+}
+.sideLogin .nologin{
+	width: 200px;
+	height: 220px;
+	margin: 100px auto 0;
+	position: relative;
+}
+.sideLogin .nologin label.usebg {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url(../img/icon_index.png) no-repeat scroll -378px -45px;
+}
+.sideLogin .nologin input[type=text], .sideLogin .nologin input[type=password] {
+    color: #999;
+    width: 200px;
+    box-shadow: 0 0 3px #ccc;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background: #fff;
+    height: 30px;
+    line-height: 30px !important;
+    padding: 0 10px 0 35px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-family: "microsoft yahei";
+}
+.sideLogin .nologin div.useTxt {
+    top: 36px;
+}
+.sideLogin .nologin label.wordbg {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url(../img/icon_index.png) no-repeat scroll -336px -45px;
+    left: 0px;
+    top: 54px;
+}
+.sideLogin .nologin input[type=text], .sideLogin .nologin input[type=password] {
+    color: #999;
+    width: 200px;
+    box-shadow: 0 0 3px #ccc;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background: #fff;
+    height: 30px;
+    line-height: 30px !important;
+    padding: 0 10px 0 35px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-family: "microsoft yahei";
+}
+.sideLogin .nologin div {
+    position: absolute;
+    left: 0px;
+    color: #cb351a;
+}
+.sideLogin .nologin .yzm {
+    position: relative;
+    overflow: hidden;
+    height: 53px;
+}
+.sideLogin .nologin p {
+	line-height: 30px;
+}
+.sideLogin .nologin .yzm input {
+    width: 72px;
+    height: 26px;
+    line-height: 26px !important;
+    float: left;
+    padding-left: 10px;
+}
+.sideLogin .nologin .yzm img {
+    width: 60px;
+    height: 28px;
+    margin-left: 5px;
+    float: left;
+}
+.sideLogin .nologin .yzm a {
+    font-size: 12px;
+    margin-left: 5px;
+    float: left;
+}
+.sideLogin .nologin div.yzmTxt {
+    top: 148px;
+}
+.sideLogin .nologin div {
+    position: absolute;
+    left: 0px;
+    color: #cb351a;
+}
+.sideLogin .nologin input[type=button], .sideLogin .nologin input[type=submit] {
+    background: #ca3619;
+    width: 100px;
+    height: 30px;
+    line-height: 28px;
+    color: #fff;
+    margin-right: 10px;
+    border: none;
+    font-size: 15px;
+    font-family: "microsoft yahei";
+    cursor: pointer;
+}
+.cart-main-list .shopcar {
+    position: relative;
+    background: #ddd;
+    height: 100%;
+    font-family: "microsoft yahei";
+}
+.nopublic {
+    height: 100%;
+    width: 100%;
+    background: #ddd;
+    overflow: hidden;
+    display: none;/**/
+}
+.nopublic .nothing {
+    position: relative;
+    top: 40%;
+    height: 250px;
+    width: 220px;
+    margin: -220px auto 0;
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    font-family: "microsoft yahei";
+}
+.nopublic .nothing .noicon {
+    background: url(../img/cartshop.png) no-repeat center center;
+    width: 220px;
+    height: 220px;
+}
+.nopublic .nothing a {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
 

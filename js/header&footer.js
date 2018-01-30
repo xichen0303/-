@@ -17,7 +17,7 @@
 		})
 	
 
-	<!--左侧标题划过效果-->
+//	<!--左侧标题划过效果-->
 	
 		//划过菜单显示内容
 		$(".list_left").on("mouseenter","li",function(){
@@ -44,7 +44,7 @@
 	
 
 
-	<!-- ==头部效果== -->
+	//<!-- ==头部效果== -->
 	
 		$("#txt").focus(function(){
 			$(this).val("");
@@ -90,9 +90,53 @@
 
 
 
-
-
-
+/* ====侧栏==== */
+function sideColumn(){
+	$(".bot").find("li:eq(1),li:eq(2),li:eq(4)").mouseenter(function(){
+		$(this).find("div").stop().animate({"width":"80px","left":"-80px"},300);
+	}).mouseleave(function(){
+		$(this).find("div").stop().animate({"width":"0","left":"0"},300);
+	})
+	$(".bot").find("li:eq(3)").mouseenter(function(){
+		$(this).find("div").stop().animate({"width":"240px","left":"-240px"},300);
+	}).mouseleave(function(){
+		$(this).find("div").stop().animate({"width":"0","left":"0"},300);
+	})
+	
+	$("#backTop").click(function(){
+		$("html,body").animate({"scrollTop":0},500);
+	})
+	
+	flag = true;
+	$(".cart-user").click(function(){
+		$(".sideLogin").fadeIn(100);
+		$(".nopublic").fadeOut(100);
+		
+		if( $(".sideLogin").css("display") == "block" ){
+			$(this).find("a").addClass("list_on");
+			$(".gou-cart").animate({"right":0},500);
+		}else{
+			$(this).find("a").removeClass("list_on");
+			$(".gou-cart").animate({"right":"-280px"},500);
+		}
+	})
+	$(".cart-i").click(function(){
+		$(".sideLogin").fadeOut(100);
+		$(".nopublic").fadeIn(100);
+		if( $(".nopublic").css("display") == "none" ){
+			$(this).find("a").addClass("list_on");
+			$(".gou-cart").animate({"right":0},500);
+		}else{
+			$(this).find("a").removeClass("list_on");
+			$(".gou-cart").animate({"right":"-280px"},500);
+		}
+	})
+	
+	
+	
+	
+}
+sideColumn();
 
 
 
