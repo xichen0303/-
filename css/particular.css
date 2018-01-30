@@ -1,0 +1,1169 @@
+body,ol,ul,li,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,header,nav,section,footer{margin:0;padding:0;box-sizing: border-box;} 
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;}
+a{text-decoration:none;color:#666666;} 
+b,strong{font-weight: normal;}
+i,em{font-style:normal}
+li{list-style:none}
+img{border:0;display: block;vertical-align: top;} 
+.noborder{border:0;}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;height: 0;line-height: 0;font-size: 0;}
+html,body{box-sizing: border-box;}
+
+a:hover{color: #CC1D00;}
+/* ============================================= */
+.shareW{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.breadcrumb{
+	color: #999999;
+	line-height: 50px;
+	height: 50px;
+	font-family: "宋体",simsun;
+}
+.breadcrumb a{
+	padding: 0 5px;
+}
+
+.productInfo .preview{
+	width: 362px;
+	position: relative;
+	z-index: 11;
+}
+.midImgBox{
+	width: 350px;
+	height: 350px;
+	position: relative;
+	padding: 0;
+	border: 1px solid #cccccc;
+	cursor: move;
+}
+/**/
+.midImgBox .mask{
+	position: absolute;
+	width: 175px;
+	height: 175px;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	border: 1px solid #AAAAAA;
+	background: #fede4f;
+	opacity: 0.5;
+	display: none;
+}
+.midImgBox .midImg{
+	width: 350px;
+	height: 350px;
+}
+.bigImgBox{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	position: absolute;
+	border: 1px solid #CCCCCC;
+	left: 370px;
+	top:0;
+	display: none;
+}
+.bigImgBox .bigImg{
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.smaImgBox{
+	width: 354px;
+	height: 56px;
+	padding-top: 6px;
+	overflow: hidden;
+}
+.smaImgBox #spec-left{
+	background: url(../img/mainCon.png) no-repeat -142px -116px;
+	width: 21px;
+	height: 54px;
+	display: inline-block;
+	float: left;
+	padding-right: 3px;
+	cursor: pointer;
+	margin-top: 0px;
+}
+.smaImgBox #spec-right{
+	background: url(../img/mainCon.png) no-repeat -167px -116px;
+	width: 18px;
+	height: 54px;
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+	margin-top: 0;
+}
+.smaImgBox .spec-list{
+	position: relative;
+	width: 302px;
+	margin-right: 8px;
+	float: left;
+	overflow: hidden;
+	margin-left: 2px;
+	display: inline-block;
+}
+.smaImgBox .spec-list ul{
+	width: 244px;
+	overflow: hidden;
+}
+.smaImgBox .spec-list ul li{
+	float: left;
+	margin-left: 0px;
+	display: inline;
+	width: 61px;
+}
+.smaImgBox .spec-list ul li img{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #CCCCCC;
+}
+.preview .addBox{
+	margin-top: 15px;
+	height: 30px;
+}
+.preview .addBox .sc{
+	background: url(../img/scPng.png) no-repeat;
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #998675;
+	float: left;
+}
+.preview .overLeftKF{
+	line-height: 36px;
+	color: #CC1D00;
+	width: 260px;
+}
+.preview .overLeftKF i.iconph{
+	display: block;
+    float: left;
+    width: 12px;
+    height: 17px;
+    margin: 9px 5px 0 0;
+    background: url(../img/iconKf.png) no-repeat;
+}
+.preview .overLeftKF a{
+	float: right;
+	color: #CC1D00;
+}
+.preview .overLeftKF a i.iconwx{
+	display: block;
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin: 8px 5px 0 0 ;
+	background: url(../img/iconKf.png) no-repeat -25px 0;
+}
+
+
+.goodsname{
+	width: 810px;
+	float: right;
+	padding-bottom: 8px;
+}
+.goodsname h1{
+	font-size: 18px;
+	color: #444444;
+	line-height: 1.5em;
+	font-weight: normal
+}
+.goodsname>span{
+	font-size: 14px;
+	color: #999999;
+	line-break: 1.5em;
+}
+.goodspay{
+	margin-top: 10px;
+	color: #666666;
+	margin-left: 18px;
+	width: 610px;
+	float: left;
+	position: relative;
+}
+.goodspay ul li{
+	line-height: 30px;
+	height: 30px;
+	clear: both;
+	font-family: "宋体";
+	float: left;
+	width: 100%;
+}
+.bgGray{
+	background: #f7f7f7;
+}
+.goodspay .dt{
+	float: left;
+	width: 72px;
+	text-align: right;
+	line-height: 30px;
+}
+.goodspay .dd{
+	float: left;
+	line-height: 30px;
+	width: 520px;
+}
+.goodspay .dd .sign{
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color: #CC1D00;
+	font-weight: bold;
+}
+.goodspay .dd #SGoodsPrice{
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    color: #de2507;
+    font-weight: bold;
+    padding-right: 5px;
+    display: inline-block;
+    float: left;
+}
+.goodspay .dd .iblock{
+	display: inline-block;
+    line-height: 18px;
+    margin: 6px 0 0px 20px;
+    color: #938DCD;
+    font-size: 12px;
+}
+.goodspay .dd .iblock em{
+	color: #fff;
+    background: #B3AFE1;
+    padding: 3px 4px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.sumPriceOld .dd span{
+	font-size: 12px;
+}
+.sumSale .dd a{
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 0px 3px;
+	background: #CC1D00;
+	line-height: 20px;
+	margin-right: 0px;
+}
+.goodspay .ass span{
+	display: inline-block;
+	padding-left: 12px;
+	font-family: "宋体";
+	color: #999999;
+}
+.goodspay .ass span em{
+	color: #ff6d55;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: 500;
+}
+.goodspay .sumNum{
+	padding-bottom: 8px;
+}
+.goodspay .sumNum .dd a{
+	display: inline-block;
+	border: 1px solid #DDDDDD;
+	width: 20px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.goodspay .sumNum .dd span{
+	border: 1px solid #DDDDDD;
+	width: 40px;
+	height: 24px;
+	line-height: 24px;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.goodspay .buyBtn{
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.goodspay .buyBtn span{
+	padding-left: 0px;
+}
+.goodspay .buyBtn span a#buyA{
+	width: 160px;
+	height: 42px;
+	line-height: 42px;
+	background: #CC1D00;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+	display: inline-block;
+	padding: 4px 10px;
+	text-align: center;
+	margin-right: 10px;
+	font-family: "宋体";
+}
+.goodspay .reminder{
+	clear: both;
+	font-size: 12px;
+	line-height: 24px;
+	color: #666666;
+	padding-top: 10px;
+}
+.goodspay .reminder span.sL{
+	text-indent: 8px;
+	float: left;
+	display: inline-block;
+}
+.goodspay .bzBox{
+	position: absolute;
+	top: 0px;
+	right: -200px;
+	width: 175px;
+}
+.goodspay .bzBox h3{
+	width: 175px;
+	height: 48px;
+	text-indent: -9999px;
+	margin-bottom: 10px;
+	background: url(../img/pro_20150518.png) no-repeat;
+}
+.goodspay .bzBox p{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px;
+	color: #176ecb;
+	width: 160px;
+	overflow: hidden;
+}
+.goodspay .bzBox p i{
+	width: 22px;
+	height: 21px;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../img/mainCon.png) no-repeat;
+}
+.goodspay .bzBox p.p1 i{
+	background-position: -28px -116px;
+}
+.goodspay .bzBox p.p2 i{
+	background-position: -54px -116px;
+}
+.goodspay .bzBox p.p3 i{
+	background-position: -80px -116px;
+}
+/*=======优惠搭配======*/
+.preferColl{
+	margin-bottom: 20px;
+	border: 1px solid #DDDDDD;
+	border-top: 1px solid #000000;
+}
+.preferColl h3{
+	height: 30px;
+	line-height: 30px;
+	background: #F7F7F7;
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 15px;
+	color: #444444;
+	padding-left: 10px;
+	font-weight: bold;
+	font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+}
+.preferClass{
+	overflow: hidden;
+	padding-left: 15px;
+}
+.preferClass li{
+	display: block;
+	float: left;
+	line-height: 18px;
+	padding: 10px 0;
+	text-align: center;
+	margin: 0 15px;
+}
+.preferClass li a {
+    display: block;
+    font-size: 12px;
+}
+.preferClass li span {
+    display: block;
+    font-size: 12px;
+    color: #cc1d00;
+}
+.preferColl .matchLeft{
+	float: left;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.preferColl .matchLeft img {
+    width: 120px;
+    height: 120px;
+    margin: 0px auto;
+    display: block;
+}
+.preferColl .matchLeft p.p1 {
+    color: #333;
+    padding-top: 6px;
+    height: 14px;
+    overflow: hidden;
+}
+.preferColl .matchLeft p.p2 {
+    width: 150px;
+    height: 36px;
+    overflow: hidden;
+    padding-top: 6px;
+    color: #666;
+    line-height: 18px;
+}
+.preferColl .matchLeft p.p3 {
+    padding-top: 5px;
+    color: #cc1d00;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+}
+.preferColl .matchLeft p.p3 span.s1 {
+    color: #999;
+}
+.preferColl .matchLeft p.p4 {
+    color: #999;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+.preferColl .matchCen {
+    float: left;
+    width: 760px;
+    height: 250px;
+    overflow-x: auto;
+}
+.preferColl .matchCen ul {
+    height: 225px;
+    width: 1000px;
+    overflow: hidden;
+}
+.preferColl .matchCen li {
+    float: left;
+    width: 190px;
+}
+.preferColl .matchCen li i {
+    background: url(../img/mainCon.png) no-repeat 0px -143px;
+    width: 35px;
+    height: 22px;
+    float: left;
+    margin: 50px 0px 0px 5px;
+}
+.preferColl .matchCen .goodsList {
+    width: 150px;
+    float: right;
+}
+.preferColl .matchCen .goodsList img {
+    width: 120px;
+    height: 120px;
+    margin: 0px auto;
+    display: block;
+}
+.preferColl .matchCen .goodsList p.p1 {
+    padding-top: 6px;
+    color: #333;
+    height: 24px;
+    overflow: hidden;
+}
+.preferColl .matchCen .goodsList p.p2 {
+    width: 150px;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    padding-top: 6px;
+    color: #666;
+}
+.preferColl .matchCen .goodsList p.p3 {
+    padding-top: 5px;
+    color: #cc1d00;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-family: "microsoft yahei";
+}
+.preferColl .matchCen .goodsList p.p3 input {
+    vertical-align: -2px;
+}
+.preferColl .matchCen .goodsList p.p3 span.s1 {
+    color: #999;
+}
+.preferColl .matchCen .goodsList p.p4 {
+    color: #999;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    padding-left: 18px;
+}
+.preferColl .matchRight {
+    float: right;
+    width: 210px;
+    height: 230px;
+    padding: 30px 0px 0px 50px;
+    position: relative;
+}
+.preferColl .matchRight p.p1 {
+    font-size: 15px;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.preferColl .matchRight p {
+    padding-bottom: 10px;
+}
+.preferColl .matchRight p.p2 {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.preferColl .matchRight p.p2 span {
+    color: #cc1d00;
+    font-weight: bold;
+}
+.preferColl .matchRight p.p1 span {
+    font-size: 15px;
+    color: #cc1d00;
+    font-weight: bold;
+    padding-right: 3px;
+    font-family: "microsoft yahei";
+}
+.preferColl .matchRight a {
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background: #cc1d00;
+    border-radius: 3px;
+    display: block;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+}
+
+
+/* 详情  */
+.xqLeft {
+    float: left;
+    width: 220px;
+}
+.xqLeft .brandInfo {
+    width: 218px;
+}
+.brandLeft .brandInfo {
+    width: 218px;
+    border: 1px solid #dbdbdb;
+    border-top: 1px solid #000000;
+    padding-bottom: 13px;
+    margin-bottom: 16px;
+}
+.brandLeft .brandInfo h3 {
+    height: 31px;
+    line-height: 31px;
+    border-bottom: 1px solid #dbdbdb;
+    background: #f7f7f7;
+    text-indent: 16px;
+    font-size: 14px;
+    color: #151515;
+    font-weight: normal;
+    font-family: "微软雅黑";
+    width: 218px;
+    overflow: hidden;
+}
+.brandLeft .brandInfo div {
+    padding: 0 8px 0px 8px;
+}
+.brandLeft .brandInfo p {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 9px;
+    overflow: hidden;
+}
+.brandLeft .brandInfo p a {
+    font-size: 12px;
+    color: #454545;
+}
+.xqLeft .brandInfo img {
+    width: 202px;
+}
+
+.brandLeft .brandInfo .newInfo {
+    padding: 20px 12px 10px 12px;
+    text-align: center;
+    border-bottom: 1px dashed #9a9a9a;
+}
+.brandLeft .brandInfo .newInfo img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.brandLeft .brandInfo p {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 9px;
+    overflow: hidden;
+}
+.brandLeft .brandInfo .newInfo p {
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+}
+.brandLeft .brandInfo p a {
+    font-size: 12px;
+    color: #454545;
+}
+.brandLeft .brandInfo .newInfo strong {
+    height: 36px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #bb0200;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.xqLeft .brandInfo>div:last-child {
+    border-bottom: none;
+}
+
+.proRight {
+    float: right;
+    width: 960px;
+    position: relative;
+}
+.proNav {
+    margin-bottom: 20px;
+    height: 36px;
+    width: 960px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-top: 1px solid #000;
+}
+.proNav li {
+    padding: 0px 15px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+    cursor: pointer;
+    position: relative;
+}
+.proNav li.hover {
+    background: #fff;
+    border-top: 2px solid #cc1d00;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    position: relative;
+    top: -1px;
+    left: -1px;
+    color: #cc1d00;
+}
+.proNav li.onlineKf {
+    color: #cc1d00;
+}
+.proNav li.onlineKf .iconNe {
+    display: block;
+    float: left;
+    width: 19px;
+    height: 21px;
+    margin: 6px 5px 0 0;
+    background: url(../img/iconkfg.gif) no-repeat;
+}
+.proNav li.rightBtn {
+    float: right;
+    width: 260px;
+    text-align: right;
+    cursor: auto;
+    padding: 0;
+}
+.proNav li.rightBtn span {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #cc1d00;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+    height: 36px;
+    line-height: 36px;
+}
+.proNav li.rightBtn div {
+    float: right;
+    width: 130px;
+}
+.proNav li.rightBtn input {
+    position: relative;
+    top: -1px;
+    _top: 0px;
+    background: #cc1d00;
+    color: #fff;
+    text-align: center;
+    width: 130px;
+    height: 37px;
+    line-height: 37px;
+    border: none;
+    font-size: 16px;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+    cursor: pointer;
+}
+.fixtop{
+	position: fixed;
+	top: 0;
+	z-index: 20;
+}
+.proNav .overLeftKf {
+    display: none;
+    padding: 0 10px;
+    position: absolute;
+    left: -231px;
+    top: -1px;
+    width: 198px;
+    height: 36px;
+    border: 1px solid #ddd;
+    border-top: 2px solid #000;
+    background: #f7f7f7;
+    line-height: 36px;
+    color: #cc1d00;
+}
+.overLeftKf a {
+    float: right;
+    color: #cc1d00;
+}
+.overLeftKf i.iconph {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 17px;
+    margin: 9px 5px 0 0;
+    background: url(../img/iconKf.png) no-repeat scroll 0 0;
+}
+.overLeftKf a i.iconNe {
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    background: #000;
+    margin: 8px 5px 0 0;
+    background: url(../img/iconKf.png) no-repeat scroll -25px 0;
+}
+
+
+
+
+
+
+
+
+
+.xqPicA {
+    width: 790px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    height: auto;
+}
+.xqPicA img {
+    width: 790px;
+    height: auto;
+}
+.xqPicB {
+    width: 790px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    height: auto;
+}
+.xqPicImg1 {
+    width: 390px;
+    margin-bottom: 15px;
+    height: auto;
+    float: left;
+}
+.xqPicImg2 {
+    width: 390px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.nwtit_xiangqing {
+    text-align: center;
+    line-height: 1.5em;
+    width: 790px;
+    margin: 0px auto;
+}
+.nwtit_xiangqing p {
+    padding: 0;
+    line-height: 1.4em;
+    margin: 1.12em 0;
+}
+/* ======================= */
+.comment{
+	width: 960px;
+}
+.comment .comTit {
+    height: 31px;
+    line-height: 31px;
+    border: 1px solid #dbdbdb;
+    border-top: 1px solid #000000;
+    background: #f7f7f7;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 11;
+}
+.comment .comTit li {
+    float: left;
+    padding: 0px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #444;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.comment .comTit li.hover {
+    top: -1px;
+    height: 32px;
+    line-height: 32px;
+    border-top: 2px solid #cc1d00;
+    background: #fff;
+    color: #cc1d00;
+}
+.comment .comTit li span {
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.comment .comTit li.right {
+    float: right;
+    background: url(../img/mainCon.png) no-repeat 0px -174px #cc1d00;
+    height: 19px;
+    line-height: 19px;
+    padding-left: 26px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    top: 5px;
+    right: 5px;
+}
+.commentBox {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    background: url(../img/plPic.gif) no-repeat right bottom;
+}
+.comment .comPic {
+    float: left;
+    width: 120px;
+    padding-top: 7px;
+}
+.comment .comPic img {
+    width: 120px;
+    height: 120px;
+}
+.comment .comInfo {
+    width: 830px;
+    float: left;
+    margin-left: 10px;
+}
+.comment .comInfo .bought {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #000;
+}
+.comment .comInfo .bought a {
+    font-size: 14px;
+    color: #444444;
+    width: 700px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+.star2 {
+    float: right;
+    width: 79px;
+    height: 14px;
+    background: url(../img/conlist.png) 0 -71px no-repeat;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.star1 {
+    display: block;
+    height: 14px;
+    background: url(../image/conlist.png) 0 -47px no-repeat;
+    position: relative;
+    /* top: -5px; */
+    z-index: 1;
+}
+.comment .comInfo .username {
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #7d4610;
+}
+.comment .comInfo .username span {
+    font-size: 12px;
+    color: #989898;
+}
+.comment .comInfo .username span.s1 {
+    color: #444;
+    padding-right: 15px;
+    vertical-align: middle;
+}
+.comment .comInfo .username span.s1 i {
+    font-style: normal;
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+    background: #cc1d00;
+    line-height: 16px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 11px;
+    color: #fff;
+    -webkit-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -o-border-radius: 20%;
+    border-radius: 20%;
+    margin-right: 5px;
+}
+.comment .comInfo .comMessage {
+    line-height: 22px;
+    color: #000000;
+    padding-right: 30px;
+}
+.comment .comInfo .reply {
+    line-height: 18px;
+    font-size: 12px;
+    color: #d16855;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+.comment .comInfo .reply span {
+    color: #999;
+    padding-left: 5px;
+}
+.botline {
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    margin-bottom: 1px;
+}
+/* */ 
+
+.hotZone {
+    margin-bottom: 20px;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #000;
+}
+.hotZone h3 {
+    height: 30px;
+    line-height: 30px;
+    background: #f7f7f7;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    color: #444;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+}
+.hotZone li {
+    float: left;
+    width: 191px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-top: 15px;
+}
+.hotZone li img {
+    width: 120px;
+    height: 120px;
+    margin: 0px auto;
+    display: block;
+}
+.hotZone li p {
+    width: 150px;
+    margin: 0px auto;
+}
+.hotZone li p.name {
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    padding-top: 3px;
+}
+.hotZone li p.price {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #999;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+.hotZone li p.price span {
+    padding-left: 4px;
+    color: #cc1d00;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/*============== */
+.stillMain{
+	width: 1190px;
+	margin: 20px auto;
+}
+.stillMain .stillName {
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+.stillMain .stillName span {
+    font-size: 12px;
+    padding-left: 8px;
+}
+.stillGood {
+    padding: 0px 55px;
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+.stillGood .arowBtn {
+    display: block;
+    position: absolute;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+    top: 50%;
+    width: 27px;
+    margin-top: -42px;
+    background: url(../img/icon_index.png) no-repeat;
+    height: 84px;
+    z-index: 10;
+}
+.stillGood .prev {
+    left: 2px;
+    background-position: -201px -125px;
+}
+.stillGood .next {
+	right: 12px;
+	background-position: -258px -125px;
+}
+.stillGood .d1 {
+    position: relative;
+    overflow: hidden;
+}
+.stillGood .d1 ul {
+    width: 5400px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+}
+.stillGood .d1 ul li {
+    width: 270px;
+    float: left;
+}
+.stillGood .d1 ul li .p-item {
+    padding: 0 15px;
+    overflow: hidden;
+}
+.stillGood .d1 ul li .img a {
+    display: block;
+    margin-bottom: 8px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.stillGood .d1 ul li .img img {
+    width: 90%;
+    height: 90%;
+}
+.stillGood .stTit {
+    line-height: 18px;
+    overflow: hidden;
+}
+.stillGood .stTit a {
+    display: block;
+    height: 18px;
+    overflow: hidden;
+}
+.stillGood .stTit a:first-child {
+    padding-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+.stillGood .stTit a:last-child {
+    color: #666;
+    height: 36px;
+    overflow: hidden;
+}
+.stillGood .stTit span {
+    float: right;
+    color: #999;
+    line-height: 24px;
+    height: 24px;
+    overflow: hidden;
+    padding-bottom: 2px;
+}
+.stillGood .stPrice {
+    float: left;
+    line-height: 15px;
+}
+.stillGood .stPrice .p1 {
+    color: #e52100;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+}
+
+.stillGood .stPrice span.s1 {
+    color: #999;
+    font-family: "microsoft yahei";
+}
+.stillGood .stBtn {
+    float: right;
+}
+.stillGood .stBtn input {
+    width: 90px;
+    color: #fff;
+    background: #cc1d00;
+    border: none;
+    line-height: 30px;
+    outline: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

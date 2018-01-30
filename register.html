@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<!-- ========头部======== -->
+		<div class="head_wrap">
+			<div class="head">
+				<div class="logo">
+					<img src="img/logo.gif"/>
+				</div>
+				<div class="stepCar">
+					<img src="img/stepCon.png"/>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- 中间内容 -->
+		<div class="regMain">
+			<div class="regLeft">
+				<img src="img/downloadApp.png"/>
+			</div>
+			<div class="regRight">
+				<h3>新用户注册</h3>
+				<span class="rR">
+					已有麦乐购账号,
+					<a href="login.html">直接登录</a>
+				</span>
+				<div class="clear"></div>
+				<div class="divCont">
+					<form action="" method="post">
+						<ul>
+							<li>
+								<input type="text" class="public uname" name="uname" placeholder="请输入手机号码" />
+								<p class="name_err focusTxt"><!--请输入手机号码--></p>
+							</li>
+							<li>
+								<input type="text" class="public upwd" name="pwd" placeholder="请输入密码" />
+								<p class="pwd_err focusTxt"><!--请输入密码--></p>
+							</li>
+							<li>
+								<input type="text" class="public spwd" name="sure" placeholder="请再次输入密码" />
+								<p class="sure_err focusTxt"><!--请再次输入密码--></p>
+							</li>
+							<li>
+								<input type="text" placeholder="请输入验证码" class="code" style="display: inline-block;" />
+								<img src="img/8810.png" style="display: inline-block;" class="codeImg" />
+								<a href="javascript:;" class="change" >换一张</a>
+								<p class="code_err focusTxt"><!--请输入验证码--></p>
+							</li>
+							<li id="li_sms">
+								<input type="text" id="sms_code" placeholder="短信校验码" class="code" />
+								<a href="javascript:;" class="sms">获取短信校验码</a>
+								<p class="sms_err focusTxt"><!--您输入的短信检验码有误，请重新输入--></p>
+							</li>
+						</ul>
+						<ul style="margin-top: 0;">
+							<li>
+								<input type="checkbox" class="check" checked="checked" />
+								已阅读并同意
+								<a href="javascript:;">《麦乐购注册协议及交易条款》</a>
+							</li>
+							<li>
+								<input type="button" value="立即注册" class="btn" />
+							</li>
+							<li class="voiceCer"> 
+								收不到短信？请使用
+								<a href="javascript:;">语音验证码</a>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+		<!-- ==========footer========== -->
+		<div class="footer">
+			<div class="about">
+					<p class="abLink">
+						<a href="">关于麦乐购</a>
+						<span>|</span>
+						<a href="">保税店专区</a>
+						<span>|</span>
+						<a href="">服务条款</a>
+						<span>|</span>
+						<a href="">商户合作</a>
+						<span>|</span>
+						<a href="">O2O合作</a>
+						<span>|</span>
+						<a href="">联系我们</a>
+						<span>|</span>
+						<a href="">友情链接</a>
+						<span>|</span>
+						<a href="">诚聘英才</a>
+						<span>|</span>
+						<a href="">手机麦乐购</a>
+						<span>|</span>
+						<a href="">意见建议</a>
+						<span>|</span>
+						<a href="">媒体报道</a>
+					</p>
+					<p style="margin-top: 10px;">
+						<a href=""><img class="gongan" src="img/gonganbeian.png"/>京公网安备：11010102000812号</a>
+						 | 中华保险保单号：021544019311050D000004 | 中华人民共和国出版物经营许可证编号：150023
+					</p>
+					<p>食品经营许可证编号：JY11101070034785 | 食品卫生许可证编号：110101_JX0020 | 乳制品(含婴幼儿配方乳粉)销售资质 | 营业执照：110101015843954</p>
+					<p>Copyright 2006 - 2016 北京麦乐购科技有限公司版权所有 | 京ICP备14022296号 | 中国服务热线：400-666-6600</p>
+		
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/public.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/myCookie.js"></script>
+<script src="js/register.js"></script>

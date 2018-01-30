@@ -1,0 +1,229 @@
+body,ol,ul,li,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,header,nav,section,footer{margin:0;padding:0;box-sizing: border-box;} 
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;}
+a{text-decoration:none;color:#666666;} 
+b,strong{font-weight: normal;}
+i,em{font-style:normal}
+li{list-style:none}
+img{border:0;display: block;vertical-align: top;} 
+.noborder{border:0;}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;height: 0;line-height: 0;font-size: 0;}
+html,body{box-sizing: border-box;}
+
+/* ============================================= */
+.head_wrap{
+	width: 100%;
+	height: 110px;
+}
+.head{
+	width: 1000px;
+	margin: 0 auto;
+}
+.head .logo{
+	padding-top: 20px;
+}
+.head .logo img{
+	float: left;
+}
+.head .stepCar{
+	float: right;
+	margin-top: 25px;
+}
+
+/* ================================== */
+.regMain{
+	min-height: 600px;
+	width: 960px;
+	margin: 0 auto;
+}
+.regLeft{
+	float: left;
+	width: 508px;
+	padding-top: 30px;
+}
+.regRight{
+	border: 1px solid #CCCCCC;
+	border-top: 2px solid #ea3918;
+	width: 290px;
+	float: right;
+	margin-right: 80px;
+	margin-top: 30px;
+	padding: 20px 40px;
+}
+.regMain .regRight h3{
+	float: left;
+	font-size: 22px;
+	color: #444444;
+	font-weight: normal;
+	position: relative;
+}
+.regMain .regRight span.rR{
+	float: right;
+	display: block;
+	line-height: 24px;
+	width: 160px;
+	text-align: right;
+}
+.regMain .regRight ul{
+	margin-top: 20px;
+}
+.regMain .regRight li input{
+	border: 1px solid #dedede;
+	color: #999999;
+	font-size: 14px;
+	height: 32px;
+	line-height: 32px;
+}
+.regMain .regRight ul li input.public{
+	width: 278px;
+	padding: 0px 5px;
+}
+.regMain .regRight ul li p.focusTxt{
+	line-height: 24px;
+	color:#ff6b52;
+	height: 24px;
+}
+.regMain .regRight li input.code{
+	width: 110px;
+	padding-left: 8px;
+}
+.regMain .regRight li a.sms{
+	width: 110px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	background: #EEEEEE;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	color: #444444;
+	font-size: 12px;
+}
+.regMain .regRight li input.check{
+	height: auto;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.regMain a{
+	color: #999999;
+}
+.regMain .regRight li input.btn{
+	background: #e83917;
+	width: 290px;
+	margin-top: 5px;
+	color: #FFFFFF;
+	font-size: 22px;
+	height: 40px;
+	line-height: 40px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.voiceCer{
+	text-align: center;
+	padding: 20px 0 12px 0;
+}
+.voiceCer a{
+	color: #128cff;
+}
+
+a:hover{
+	color: #128cff;
+}
+
+/* ========登录============ */
+#loginForm li.liLab{
+	position: relative;
+}
+#loginForm li.liLab label.uesr{
+	position: absolute;
+	background: url(../img/tegPng.png) no-repeat 0px -52px;
+	text-indent: -9999px;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+#loginForm li input.user{
+	padding-left: 40px;
+	width: 240px;
+}
+#loginForm li.liLab label.pass{
+	position: absolute;
+	background: url(../img/tegPng.png) no-repeat;
+	text-indent: -9999px;
+	top: 0px;
+	left: 0px;
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+#loginForm li input.pass{
+	padding-left: 40px;
+	width: 240px;
+}
+#loginForm li input.code{
+	width: 110px;
+	padding-left: 8px;
+}
+
+#loginForm li p.otherReg{
+	padding-top: 20px;
+	color: #999999;
+}
+#loginForm li p.otherReg a{
+	background: url(../img/tegPng.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	text-indent: -9999px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 6px;
+}
+#loginForm li p.otherReg a.qq{
+	background-position:-26px -128px ;
+}
+#loginForm li p.otherReg a.alipay{
+	background-position:-106px -128px ;
+}
+#loginForm li p.otherReg a.ws360{
+	background-position:-147px -382px ;
+}
+#loginForm li p.otherReg a.sina{
+	background-position:-66px -128px ;
+}
+
+/* ============================ */
+.footer .about{
+	background: #FFFFFF;
+	padding-bottom: 15px;
+	margin-top: 50px;
+}
+.footer .about p{
+	text-align: center;
+	line-height: 24px;
+}
+.footer .about p.abLink{
+	height: 35px;
+	line-height: 35px;
+	background: #444851;
+	overflow: hidden;
+}
+.footer .about p.abLink a{
+	color: #adadad;
+	padding: 0 17px;
+}
+.footer .about p.abLink span{
+	color: #555555;
+}
+.gongan{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+
+
+

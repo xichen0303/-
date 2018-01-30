@@ -1,0 +1,268 @@
+body,ol,ul,li,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,header,nav,section,footer{margin:0;padding:0;box-sizing: border-box;} 
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;}
+a{text-decoration:none;color:#666666;} 
+b,strong{font-weight: normal;}
+i,em{font-style:normal}
+li{list-style:none}
+img{border:0;display: block;vertical-align: top;} 
+.noborder{border:0;}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;height: 0;line-height: 0;font-size: 0;}
+html,body{box-sizing: border-box;}
+
+a:hover{color: #CC1D00;}
+/* ============================================= */
+
+.every-sale-slide{
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.every-sale-slide .item-img{
+	overflow: hidden;
+	height: 300px;
+	position: relative;
+}
+.every-sale-slide .item-img li{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.every-sale-slide .item-img li a{
+	display: block;
+	width: 1190px;
+	margin: 0 auto;
+}
+.every-sale-slide .item-No{
+	display: inline;
+	text-align: center;
+	position: relative;
+	bottom: 50px;
+	margin-bottom: -10px;
+}
+.every-sale-slide .item-No a{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	font-size: 14px;
+	color: #ffffff;
+	background: #444851;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+.on{
+	background: #cb351a !important;
+}
+.sale-promise{
+	margin-top: -25px;
+	border-bottom: 1px solid #e1e2e2;
+	background: #F3F3F3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.article{
+	width: 1190px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.sale-promise dl{
+	overflow: hidden;
+	float: left;
+	text-align: left;
+}
+.sale-promise dl.sale-pro1{
+	padding-left: 35px;
+	width: 405px;
+}
+.sale-promise dl.sale-pro2{
+	width: 405px;
+}
+.sale-promise dl.sale-pro3{
+	width: 355px;
+}
+.sale-promise dl span {
+    display: block;
+    float: left;
+    width: 45px;
+    height: 45px;
+    background: url(../img/sale_icon.png) no-repeat;
+    margin-right: 10px;
+}
+.sale-promise dl dt, .sale-promise dl dd {
+    float: left;
+    width: 300px;
+    font-family: "microsoft yahei";
+}
+.sale-promise dl dt {
+    font-size: 18px;
+    line-height: 24px;
+}
+.sale-promise dl dd {
+    font-size: 14px;
+    line-height: 22px;
+    color: #a5a6a9;
+}
+.sale-promise dl span.i1 {
+    background-position: 0px -45px;
+}
+.sale-promise dl span.i2 {
+    background-position: -68px -45px;
+}
+.sale-promise dl span.i3 {
+    background-position: -137px -45px;
+}
+
+
+/*===========================*/
+.every-sale{
+	margin-top: 15px;
+	margin-bottom: -10px;
+	overflow: visible;
+}
+.sale_title{
+	overflow: hidden;
+}
+.sale_title i.bigIcon {
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 22px;
+    background: url(../img/sale_icon.png) no-repeat scroll 0 0;
+    margin: 3px 5px 0 0;
+}
+.sale_title span.sale-mTit{
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+	font-family: "microsoft yahei";
+	margin-right: 10px;
+}
+.sale-today-list{
+	clear: both;
+	margin: 5px 0 25px 0;
+	overflow: hidden;
+}
+.sale-today-list ul li {
+    width: 287px;
+    float: left;
+    margin: 0 10px 10px 0;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px #d8d7d7;
+    position: relative;
+}
+.sale-today-list ul li a{
+	display: block;
+	position: relative;
+	width: 290px;
+	height: 230px;
+	overflow: hidden;
+}
+.sale-today-list ul li a img{
+	width: 290px;
+	height: 230px;
+	overflow: hidden;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sale-name{
+	padding: 0 12px;
+	overflow: hidden;
+	line-height: 43px;
+}
+.sale-name h3{
+	float: left;
+	display: inline-block;
+	font-size: 14px;
+	height: 43px;
+	overflow: hidden;
+	width: 170px;
+	line-height: 47px;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+}
+.sale-name p.r{
+	display: inline-block;
+    float: right;
+    font-size: 16px;
+    color: #ff0000;
+    font-family: "microsoft yahei";
+}
+.sale-name p.r b {
+    font-family: tahoma;
+    font-size: 24px;
+    font-weight: 400;
+}
+.sale-time {
+    margin: 0 8px;
+    border-top: 1px dashed #c6c6c6;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.sale-time p {
+    display: inline-block;
+    font-family: "microsoft yahei";
+    color: #797979;
+    font-size: 12px;
+}
+.timeIcon {
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    width: 22px;
+    height: 22px;
+    background: url(../img/sale_icon.png) no-repeat scroll -48px 1px;
+    margin-top: 6px;
+}
+.sale-time p span {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
