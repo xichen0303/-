@@ -26,6 +26,9 @@ html,div{box-sizing: border-box;}
 	border-bottom: 1px solid #EEEEEE;
 	position: relative;
 }
+.top_title_wrap a:hover{
+	color: #CC1D00;
+}
 .top_title{
 	width: 1200px;
 	margin: 0 auto;
@@ -405,7 +408,7 @@ html,div{box-sizing: border-box;}
 	margin-right: 5px;
 }
 .list_on{
-	background: #a90000;
+	background-color: #a90000!important;
 }
 .list_right>div{
 	padding: 12px 8px 12px 15px;
@@ -417,7 +420,7 @@ html,div{box-sizing: border-box;}
 	left: 170px;
 	box-shadow: 1px 0 2px #978d8d inset;
 	overflow: hidden;
-	z-index: 5;
+	z-index: 21;
 	opacity: 0.5;
 	display: none;
 }

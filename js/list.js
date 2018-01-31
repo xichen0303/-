@@ -7,7 +7,7 @@ function slideShow(){
 		if( index == 4 ){
 			index = 0;
 		}
-		$(".item-No a").eq(index).addClass("on").siblings().removeClass("on");
+		$(".item-No a").eq(index).addClass("on1").siblings().removeClass("on1");
 		$(".item-img li").eq(index).stop().animate({"opacity":1},500)
 								   .siblings()
 								   .stop()
